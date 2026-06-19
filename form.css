@@ -1,0 +1,30 @@
+div{
+    width : 70%;
+    margin : 0 auto;
+}
+
+h1{
+    /* margin-left: 160px; */
+    border : 2px dashed #bdaeff;
+    background-color : #c9d545;
+    padding-left : 160px;
+
+}
+.margin{
+    margin-left : 20px;
+}
+.radius{
+    border-radius : 20px;
+    background-color : #c9d54587;
+}
+
+#btn{
+    margin : 70px 0 0 30em;
+    transform : scale(1.5);
+    padding : 5px 30px;
+    border-radius : 20px;
+    background-color : lightblue;
+    border : 2px solid red;
+    font-weight : 700;
+    
+}

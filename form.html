@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div>
+        <form action="">
+            <h1>Student Registration </h1>
+            <hr>
+            <br>
+            <br>
+            <br>
+            <!-- name -->
+            <label for="name"><b>Enter student Name: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" class="radius" placeholder="student Name" name="name" id="name">
+            <!-- rollno -->
+            <label for="rno" class="margin"><b>Enter Roll Number: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" class="radius" placeholder="Rollno" name="rollno" id="rno"><br><br><br>
+            <!-- email -->
+            <label for="email"  id="emailLabel"><b>Enter email: </b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" class="radius"  placeholder="email" name="email" id="email"><br><br><br>
+            <!-- passward -->
+            <label for="pass"><b>Enter password:</b> </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="password" class="radius" placeholder="password" name="password" id="pass">
+
+            <!-- hobbies -->
+             <label class="margin"><b>Hobbies : </b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="checkbox" id="hobby1" name="hobby" value="singing">
+             <label for="hobby1" >Singing</label>
+             <input type="checkbox" id="hobby2" name="hobby" value="dancing">
+             <label for="hobby2" >Dancing</label>
+             <input type="checkbox" id="hobby3" name="hobby" value="acting">
+             <label for="hobby3" >Acting</label>
+
+             <br><br><br>
+             
+            <!-- Gender -->
+            <label><b>Gender :</b></label> &nbsp;&nbsp;&nbsp;&nbsp;
+             <input type="radio" id="male" name="gender" value="male">
+             <label for="male">Male</label>
+             <input type="radio" id="female" name="gender" value="female">
+             <label for="female">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- city -->
+            <label class="margin"><b>City  :</b> </label> &nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="city" id="city" >
+                <option value="khanna">Khanna</option>
+                <option value="amloh">Amloh</option>
+                <option value="ludhiana">Ludhiana</option>
+                <option value="patiala">Patiala</option>
+            </select>
+            
+            <br>
+            
+            <button type="submit" id="btn">Submit</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
