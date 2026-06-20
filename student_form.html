@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="student_form.css">
+</head>
+<body>
+    
+    <form action="index.html">
+        <h1>Student form</h1>
+        <div class="nameDob">
+            <!-- <div> -->
+                <label for="name">Name :</label>
+                <input class="inp" id="name" name="name" type="text" placeholder="student name">
+            <!-- </div> -->
+            <!-- <div> -->
+                <label id="dobLabel" for="dob">date of birth:</label>
+                <input class="inp" id="dob" name="DOB" type="date" placeholder="date of birth">
+            <!-- </div> -->
+        </div>
+        <div class="emailPwd">
+            <label for="email">Email :</label>
+            <input id="email" class="inp" name="email" type="email" placeholder="student email">
+            <label for="pwd">Password :</label>
+            <input id="pwd" class="inp" name="password" type="password" placeholder="password">
+        </div>
+        <div>
+            <label for="marks">Last qualification marks :</label>
+            <input id="marks" class="inp" name="marks" type="number" placeholder="Last qualification marks">
+            
+        </div>
+        
+        <div>
+            Gender : 
+            
+            <input id="male" name="gender" value="male" type="radio">
+            <label for="male">Male:</label>
+            
+            <input id="female" name="gender" value="female" type="radio">
+            <label for="female">Female:</label>
+        </div>
+        <div id="btns">
+            <button id="submit" > Submit</button>
+            <button id="reset"> Reset</button>
+        </div>
+    </form>
+</body>
+</html>
