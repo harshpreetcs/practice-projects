@@ -22,9 +22,6 @@ How to Use
 2. Click the "Calculate" button.
 3. View your exact age instantly.
 
-Screenshot
-
-
  Future Improvements
 - Dark mode
 - Age in weeks, hours, and minutes
