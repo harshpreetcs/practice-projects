@@ -26,3 +26,5 @@ How to Use
 - Dark mode
 - Age in weeks, hours, and minutes
 - Next birthday countdown
+
+# Marks calculator
