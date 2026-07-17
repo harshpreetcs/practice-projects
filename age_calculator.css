@@ -1,0 +1,43 @@
+*{
+    background-color:blanchedalmond;
+}
+
+h1{
+    /* margin: 0 auto; */
+    padding: 0 36%;
+    color :darkblue;
+}
+
+input{
+    font-size: 25px;
+    color: green;
+}
+
+.borderRadius{
+    border-radius : 10px;
+
+}
+
+.form{
+    width: 350px;
+
+    display: flex;
+    flex-direction : column;
+    margin: 0 auto;
+    /* background-color: ; */
+}
+
+button{
+    width:50%;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 25px;
+
+    background-color: lightseagreen;
+
+}
+
+h2{
+    color: red;
+    padding-left : 33%;
+}
